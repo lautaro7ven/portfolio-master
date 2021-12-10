@@ -22,7 +22,7 @@
         <form action="{{ route('user.update', $user) }}" method="POST" class="bg-white overflow-hidden shadow-xl-sm:rounded-lg p-8 px-3 py-3">
             <div class="mb-4">
                 <label for="" class="block text-gray-700 text-sm font-bold mb-2">
-                    Nombre 
+                    Nombre *
                 </label>
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="nombre" type="text" name="name" value="{{ old('name', $user->name) }}">
@@ -34,7 +34,7 @@
             </div>
             <div class="mb-4">
                 <label for="" class="block text-gray-700 text-sm font-bold mb-2">
-                    Correo Electronico
+                    Correo *
                 </label>
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="correo" type="text" name="email" value="{{ old('email', $user->email) }}">

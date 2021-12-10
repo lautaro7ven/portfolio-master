@@ -39,6 +39,16 @@ class User extends Authenticatable
         'facebook',
         'twitter',
         'github',
+        'personaldescription',
+        'service',
+        'servicedescription',
+        'title_whatido',
+        'title_aboutme',
+        'professionalname',
+        'professionalpercent',
+        'percent',
+        'name',
+        'title_job',   
     ];
 
     /**
