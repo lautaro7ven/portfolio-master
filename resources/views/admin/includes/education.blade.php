@@ -2,7 +2,7 @@
 @endforeach
 <div class="container">
         <div class="row justify-content-center text-center">
-            <h2 class="col col-12 text-center m-auto mt-5">Educación</h2>
+            <h2 class="col col-12 text-center m-auto mt-5">Educación Personal</h2>
             <h6 class="col col-12 text-center m-auto mt-1">"EDUCATION"</h6>
             <form action="{{ route('education.update', $education) }}"
             enctype="multipart/form-data"  

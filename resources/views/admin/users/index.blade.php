@@ -9,12 +9,12 @@
                 @if ($user->image)    
                 <img class="card-img-top" src="{{ $user->get_image }}" alt="{{ $user->name }}">
                 @else
-                <img class="card-img-top mb-3" src="{{asset('assets/images/hero.png')}}" alt="Image">
+                <img class="card-img-top mb-3" src="{{asset('assets/images/b-3.png')}}" alt="Image">
                 @endif    
                 <h5 class="card-title">{{ $user->uppercase }}</h5>
                 <p class="card-text">{{ $user->title_job }}</p>
                 <form action="{{ route('user.destroy', $user) }}" method="POST">
-                    <a href="{{ route('user.edit', $user) }}" class="bg-warning text-decoration-none p-2 rounded text-white fw-bold">EDITAR</a>
+                    <a href="{{ route('user.edit', $user) }}" class="bg-primary text-decoration-none p-2 rounded text-white fw-bold">EDITAR</a>
                     @csrf
                     @method('DELETE')
                     <input

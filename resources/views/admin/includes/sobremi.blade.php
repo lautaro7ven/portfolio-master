@@ -86,7 +86,7 @@
                 @if ($user->image_aboutme)    
                 <img class="card-img-top mb-1" src="{{ $aboutme->gett_image }}" alt="Sobre Mi">
                 @else
-                <img class="card-img-top mb-1" src="{{asset('assets/images/ab-img.png')}}" alt="Image">
+                <img class="card-img-top mb-1" src="{{asset('assets/images/b-2.png')}}" alt="Image">
                 @endif   
                     <input  class="mt-3 col col-7" type="file" name="filee">
                     @error('filee')
@@ -94,9 +94,9 @@
                         {{ $message }}
                     </div>
                     @enderror
-                    <div class="alert alert-primary mt-3 fw-bold" role="alert">
+                    <div class="alert alert-warning mt-3 fw-bold" role="alert">
                         <ul>
-                         <li>Formato Permitido: "JPG"</li>
+                         <li>Formato de imagen Permitido: "JPG"</li>
                          <li>Tamaño Recomendado: "min:600x600(px)"</li>   
                         </ul>
                     </div>

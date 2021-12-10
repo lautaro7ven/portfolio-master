@@ -38,7 +38,7 @@
                                     @if ($users->image)
                                     <img src="{{ $users->get_image }}" alt="{{ $users->name }}"  class="img-fluid">
                                     @else
-                                    <img src="{{asset('assets/images/hero.png')}}" alt=""  class="img-fluid">
+                                    <img src="{{asset('assets/images/hero.png')}}" alt="Imagen de los usuarios"  class="img-fluid">
                                     @endif
                                 </div>
                             </div>

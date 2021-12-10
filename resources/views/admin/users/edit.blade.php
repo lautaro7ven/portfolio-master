@@ -87,7 +87,7 @@
                 @if ($user->image)    
                 <img class="card-img-top mb-1" src="{{ $user->get_image }}" alt="{{ $user->name }}">
                 @else
-                <img class="card-img-top mb-1" src="{{asset('assets/images/hero.png')}}" alt="Image">
+                <img class="card-img-top mb-1" src="{{asset('assets/images/b-3.png')}}" alt="Image">
                 @endif   
                     <input  class="mt-3 col col-7" type="file" name="file">
                     @error('file')
